@@ -1,0 +1,99 @@
+Fetching instruction: 0000000000000000010101111
+Decoding instruction: UUUUUUUUUUUUUUUUUUUUUUUUU
+rs3: 00000, rs2: UUUUU, rs1: UUUUU, rd: UUUUU
+Executing Instruction: UUUUUUUUUUUUUUUUUUUUUUUUU
+rs3: UUUUU, rs2: UUUUU, rs1: UUUUU, rd (of WB stage): UUUUU
+Forwarding Signal (rs3, rs2, rs1) = 011
+Writing register UUUUU with value: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+Fetching instruction: 0000000000000000010010010
+Decoding instruction: 0000000000000000010101111
+rs3: 00000, rs2: 00000, rs1: 01111, rd: 01111
+Executing Instruction: UUUUUUUUUUUUUUUUUUUUUUUUU
+rs3: 00000, rs2: UUUUU, rs1: UUUUU, rd (of WB stage): UUUUU
+Forwarding Signal (rs3, rs2, rs1) = 011
+Writing register UUUUU with value: 00000000000000000000000000000000
+
+
+
+
+Fetching instruction: 0000000000000000001010011
+Decoding instruction: 0000000000000000010010010
+rs3: 00000, rs2: 00000, rs1: 10010, rd: 10010
+Executing Instruction: 0000000000000000010101111
+rs3: 00000, rs2: 00000, rs1: 01111, rd (of WB stage): UUUUU
+Forwarding Signal (rs3, rs2, rs1) = 000
+Writing register UUUUU with value: 00000000000000000000000000000000
+
+
+
+
+Fetching instruction: 1000001111100101001110000
+Decoding instruction: 0000000000000000001010011
+rs3: 00000, rs2: 00000, rs1: 10011, rd: 10011
+Executing Instruction: 0000000000000000010010010
+rs3: 00000, rs2: 00000, rs1: 10010, rd (of WB stage): 01111
+Forwarding Signal (rs3, rs2, rs1) = 000
+Writing register 01111 with value: 00000000000000000000000000000005
+
+
+
+
+Fetching instruction: 1100000000000000000000000
+Decoding instruction: 1000001111100101001110000
+rs3: 01111, rs2: 10010, rs1: 10011, rd: 10000
+Executing Instruction: 0000000000000000001010011
+rs3: 00000, rs2: 00000, rs1: 10011, rd (of WB stage): 10010
+Forwarding Signal (rs3, rs2, rs1) = 000
+Writing register 10010 with value: 00000000000000000000000000000004
+
+
+
+
+Fetching instruction: 1100000011011111000010010
+Decoding instruction: 1100000000000000000000000
+rs3: 00000, rs2: 00000, rs1: 00000, rd: 00000
+Executing Instruction: 1000001111100101001110000
+rs3: 01111, rs2: 10010, rs1: 10011, rd (of WB stage): 10011
+Forwarding Signal (rs3, rs2, rs1) = 001
+Writing register 10011 with value: 00000000000000000000000000000002
+
+
+
+
+Fetching instruction: 0000000000000000000000000
+Decoding instruction: 1100000011011111000010010
+rs3: 00000, rs2: 01111, rs1: 10000, rd: 10010
+Executing Instruction: 1100000000000000000000000
+rs3: 00000, rs2: 00000, rs1: 00000, rd (of WB stage): 10000
+Forwarding Signal (rs3, rs2, rs1) = 000
+Writing register 10000 with value: 00000000000000000000000000000016
+
+
+
+
+Fetching instruction: 0000000000000000000000000
+Decoding instruction: 0000000000000000000000000
+rs3: 00000, rs2: 00000, rs1: 00000, rd: 00000
+Executing Instruction: 1100000011011111000010010
+rs3: 00000, rs2: 01111, rs1: 10000, rd (of WB stage): 00000
+Forwarding Signal (rs3, rs2, rs1) = 000
+Writing register 00000 with value: 00000000000000000000000000000016
+
+
+
+
+Fetching instruction: 0000000000000000000000000
+Decoding instruction: 0000000000000000000000000
+rs3: 00000, rs2: 00000, rs1: 00000, rd: 00000
+Executing Instruction: 0000000000000000000000000
+rs3: 00000, rs2: 00000, rs1: 00000, rd (of WB stage): 10010
+Forwarding Signal (rs3, rs2, rs1) = 000
+Writing register 10010 with value: 00000000000000000000000000000003
+
+
+
+
